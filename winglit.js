@@ -344,5 +344,3 @@ pagecode = 'Central program loop.'+nl+
 	'    :return: end of program'
 
 document.write(pagecode);
-f
-</script>
