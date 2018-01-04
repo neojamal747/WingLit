@@ -1,4 +1,7 @@
-<script language="JavaScript">
+$ ("#formSubmitButton").on("click",function(event){
+	event.preventDefault();
+	console.log("submit button click")
+})
 
 var nl = getNewLine()
 
