@@ -1,7 +1,48 @@
 h1 {
+	font-family: 'Lobster', cursive;
 	text-align: center;
 	background-color: #6bc3d5;
+	stroke: #5a5a5a;
+	color: white;
+	text-shadow: 4px 3px #5a5a5a;
+	padding-bottom: 8px;
+}
+
+h2 {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	stroke: #5a5a5a;
+	color: white;
+	text-shadow: 4px 3px #5a5a5a;
+}
+
+.table-info{
+	background-color: #6CC3D5;
+	font-family: 'Lobster', cursive;
+	text-align: center;
 	text-stroke: #5a5a5a;
-	color: white: ;
-	text-shadow: 4px 4px #5a5a5a;
+	color: white;
+	text-shadow: 4px 3px #5a5a5a;
+}
+
+.table-light{
+	font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	text-align: center;
+}
+
+.was-validated .form-control:valid, .form-control.is-valid, .was-validated
+.custom-select:valid,
+.custom-select.is-valid {
+  border-color: #6bc3d5;
+}
+
+.btn-outline-primary {
+  color: #6bc3d5;
+}
+
+.btn-outline-primary {
+  color: #6bc3d5;
+  background-color: transparent;
+  background-image: none;
+  border-color: #6bc3d5;
 }
