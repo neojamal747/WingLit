@@ -6,6 +6,7 @@ h1 {
 	color: white;
 	text-shadow: 4px 3px #5a5a5a;
 	padding-bottom: 8px;
+	letter-spacing: 4px;
 }
 
 h2 {
@@ -14,20 +15,36 @@ h2 {
 	stroke: #5a5a5a;
 	color: white;
 	text-shadow: 4px 3px #5a5a5a;
+	letter-spacing: 4px;
+	background-color: #6bc3d5;
+}
+
+.form-control-label
+{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	stroke: #5a5a5a;
+	color: #6CC3D5;
+	text-shadow: 2px 2px #5a5a5a;
+	letter-spacing: 2px;
+	font-size: 22px;
 }
 
 .table-info{
 	background-color: #6CC3D5;
 	font-family: 'Lobster', cursive;
 	text-align: center;
-	text-stroke: #5a5a5a;
+	stroke: #5a5a5a;
 	color: white;
 	text-shadow: 4px 3px #5a5a5a;
+	letter-spacing: 2px;
+	font-size: 22px;
 }
 
 .table-light{
 	font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	text-align: center;
+	letter-spacing: 1px;
 }
 
 .was-validated .form-control:valid, .form-control.is-valid, .was-validated
